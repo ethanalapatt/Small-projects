@@ -1,36 +1,9 @@
-"""
-Beginner Python Project - Binary Search Implementation by Kylie Ying
 
-YouTube Kylie Ying: https://www.youtube.com/ycubed 
-Twitch KylieYing: https://www.twitch.tv/kylieying 
-Twitter @kylieyying: https://twitter.com/kylieyying 
-Instagram @kylieyying: https://www.instagram.com/kylieyying/ 
-Website: https://www.kylieying.com
-Github: https://www.github.com/kying18 
-Programmer Beast Mode Spotify playlist: https://open.spotify.com/playlist/4Akns5EUb3gzmlXIdsJkPs?si=qGc4ubKRRYmPHAJAIrCxVQ 
-"""
 
 import random
 import time
 
-# Implementation of binary search algorithm!!
 
-# We will prove that binary search is faster than naive search!
-
-
-# Essence of binary search:
-# If you have a sorted list and you want to search this array for something,
-# You could go through each item in the list and ask, is this equal to what we're looking for?
-# But we can make this *faster* by leveraging the fact that our array is sorted!
-# Binary search ~ O(log(n)), naive search ~ O(n)
-
-# In these two examples, l is a list in ascending order, and target is something that we're looking for
-# Return -1 if not found
-
-
-# naive search: scan entire list and ask if its equal to the target
-# if yes, return the index
-# if no, then return -1
 def naive_search(l, target):
     # example l = [1, 3, 10, 12]
     for i in range(len(l)):
