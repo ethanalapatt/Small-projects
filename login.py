@@ -2,7 +2,7 @@
 
 import time
 
-username = 'kylie'
+username = 'ethan'
 password = 'secretpassword'
 
 username_input = input('Username: ')
